@@ -1,0 +1,102 @@
+/* Importar biblioteca */
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap");
+
+/* Corpo completo */
+
+body {
+  font-family: "Didact Gothic", sans-serif;
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+}
+
+/* Cabeçalho */
+
+.container {
+  background: #ecf4ff;
+  color: #041832;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+}
+.titulo {
+  margin-left: 26px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h2 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 20px;
+}
+
+/* Corpo completo */
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  border-radius: 20px;
+  margin-top: 32px;
+  padding: 16px;
+}
+
+.projetos-titulo {
+  list-stype-type: none;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.projetos-item {
+  list-stype-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+/* tema Dark*/
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+.dark .projetos {
+  color: #333439;
+}
+
+.dark .tema button {
+  background: #333439;
+  color: #f6f6f6;
+  border: 2px solid #f7f7f7;
+}
